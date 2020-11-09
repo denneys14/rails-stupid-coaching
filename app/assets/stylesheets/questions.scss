@@ -9,12 +9,51 @@
 
  .banner {
    background: red;
+   color: white;
+   text-align: center;
    h1 {
      font-size: 50px;
    }
  }
 
+ h1 {
+       text-align: center;
+ }
+
+
+.your-text {
+  border: 2px;
+  opacity: 1;
+}
+.submission {
+  outline-color: black;
+  border-radius: 15px;
+  margin: auto;
+  width: 390px;
+  height: 90px;
+  border: 1px
+  solid #999999;
+  padding: 5px;
+  background-color: #ec0101;
+  opacity: 0.8;
+}
+
+input {
+  font-family: sans-serif;
+  text-align: center;
+  height:60px;
+  font-size:20pt;
+  position: center;
+  margin-top: 14px;
+  margin-left: 14px;
+}
+
+.submit {
+  background-color: #9ad3bc;
+  opacity: auto;
+}
  a {
+   position: center;
    color: grey;
    &:hover {
      color: orange;
